@@ -3,7 +3,8 @@
 ## About Project
 
 This project is a companion project to The App Brewery's Complete Flutter Development Bootcamp. The objective of this project is to learn about asynchronous programming in Dart. When project is finished you'll  be able to find out the live weather data in the current location of the device as well as the weather for any city you can think of!
-The final view of application: ![](https://github.com/burhanemirkeles/Clima-Flutter-emirkeles/blob/Clima-Flutter-emirkeles/gif/clima_app_completed_gif.gif?raw=true)
+The final view of application: 
+![](https://github.com/burhanemirkeles/Clima-Flutter-emirkeles/blob/Clima-Flutter-emirkeles/gif/clima_app_completed_gif.gif?raw=true)
 ## Objectives Covered
 * How to use Dart to perform asynchronous tasks.
 * Understand async and await.
