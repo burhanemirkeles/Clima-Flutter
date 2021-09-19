@@ -19,11 +19,17 @@ This project is a companion project to The App Brewery's Complete Flutter Develo
 
 # Development Journal
 
-### Dev Sprint #1
+### dev Sprint #1
 After seeing this project on The App Brewery's Complete Flutter Development Bootcamp, I created a fork and started working on it. While working on the project, I had to change some of the code written in the course because some features used in the course were outdated.
 I changed,
--the Geolocator package to 7.6.2 and used newer features of it.
--API services of openweathermap.org to a newer version.
+* the Geolocator package to 7.6.2 and used newer features of it.
+* API services of openweathermap.org to a newer version.
+
+### dev Sprint #2
+* I coded the services parts which reads and uses data from JSON files that comes from API.
+* A loading animation added for pre-loading sequence.
+* Lots of refactoring on location and weather data services.
+* At the end of this sprint, application can read and show real-time weather data from https://openweathermap.org/ "Current Weather Data API".
 
 
 
