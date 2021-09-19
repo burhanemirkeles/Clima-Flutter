@@ -31,6 +31,9 @@ I changed,
 * Lots of refactoring on location and weather data services.
 * At the end of this sprint, application can read and show real-time weather data from https://openweathermap.org/ "Current Weather Data API".
 
+### dev Sprint #3
+* A new screen that allows users to search with a TextField Widget any city's weather condition added. When adding this screen, I learned how to pass data backwards through the navigation stack.
+
 
 
 

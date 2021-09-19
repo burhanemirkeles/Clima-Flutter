@@ -6,7 +6,16 @@ class WeatherModel {
   var key = API().api;
   var mainURL = API().mainURL;
 
-  Future <dynamic> getWeatherData() async{
+  Future<dynamic> getCityWeather(String cityName) async {
+    NetworkHelper networkHelper =
+        NetworkHelper('$mainURL?q=$cityName&appid=$key&units=metric');
+
+    var weatherData = await networkHelper.getData();
+
+    return weatherData;
+  }
+
+  Future<dynamic> getWeatherData() async {
     Location location = Location();
     await location.getCurrentLocation();
     NetworkHelper networkHelper = NetworkHelper(
@@ -15,8 +24,8 @@ class WeatherModel {
     var weatherData = await networkHelper.getData();
 
     return weatherData;
-
   }
+
   String getWeatherIcon(int condition) {
     if (condition < 300) {
       return '🌩';
